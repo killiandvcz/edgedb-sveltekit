@@ -1,0 +1,1 @@
+export const escape = (str) => str.replaceAll(/[-\/\\^"$*+?.()|[\]{}]/g, '\\$&');
